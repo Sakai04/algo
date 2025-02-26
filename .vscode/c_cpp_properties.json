@@ -10,7 +10,7 @@
                 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
             ],
             "compilerPath": "/opt/homebrew/bin/g++-14",
-            "intelliSenseMode": "macos-clang-arm64",
+            "intelliSenseMode": "macos-gcc-arm64",
             "cStandard": "c23",
             "cppStandard": "c++20"
         }
