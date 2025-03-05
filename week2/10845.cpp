@@ -23,6 +23,9 @@ int main(void){
                 Q.pop();
              } 
         }
+        else if(q=="size"){
+            cout << Q.size() << '\n';
+        }
         else if(q=="empty"){
             cout << Q.size() << '\n';
         }
