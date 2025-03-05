@@ -27,7 +27,7 @@ int main(void){
             cout << Q.size() << '\n';
         }
         else if(q=="empty"){
-            cout << Q.size() << '\n';
+            cout << Q.empty() << '\n';
         }
         else if(q=="front"){
             if(Q.empty()) cout << -1 << '\n';
