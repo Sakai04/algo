@@ -2,27 +2,23 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "type": "cppbuild",
-            "label": "C/C++: g++ 활성 파일 빌드",
-            "command": "/usr/bin/g++",
+            "type": "shell",
+            "label": "C++ Build",
+            "command": "/opt/homebrew/bin/g++-14", 
             "args": [
-                "-fdiagnostics-color=always",
+                "-std=c++20",             // 원하는 C++ 표준 버전
                 "-g",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "detail": "디버거에서 생성된 작업입니다."
+            "problemMatcher": [
+                "$gcc"
+            ]
         }
     ]
 }
