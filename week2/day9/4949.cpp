@@ -28,7 +28,7 @@ int main() {
       }
     }
     if(!s.empty()) isValid = false;
-    if(isValid) cout << "yes\n";
+    if(isValid) cout << "yesssss\n";
     else cout << "no\n";
   }
 }

@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <bits/stdc++.h>
 
 char func(char *s, int a){
     if (strlen(s) > a) return *(s+a);
